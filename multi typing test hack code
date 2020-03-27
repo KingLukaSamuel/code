@@ -1,0 +1,14 @@
+Copy & paste The below code in console
+//////////////////////////////
+var b =   document.querySelector("input");
+b.setAttribute("id", "text");
+b.setAttribute("onkeypress", "me()");
+
+function me(){
+var hi=document.getElementsByClassName("highlight")[0].innerText;
+var text=document.getElementById("text");
+text.value=hi;
+}
+
+
+video link:https://youtu.be/nT9VEOwl3g8
